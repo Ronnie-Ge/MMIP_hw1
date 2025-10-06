@@ -12,7 +12,7 @@ int main() {
                         "./data/goldhill.raw", "./data/lena.raw", "./data/peppers.raw"};
                         
     for (int i = 0; i < 6; i++) {
-        int scale = 16;      //problem_c需要在這裡更改scale，調整圖片大小
+        int scale = 1;      //problem_c需要在這裡更改scale，調整圖片大小
         unsigned char *data = (unsigned char*)malloc(WIDTH*HEIGHT);
         char output_file[256];          //儲存圖片檔名
         unsigned char header[1078];      //儲存BMP檔頭
